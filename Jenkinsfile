@@ -11,8 +11,8 @@ pipeline{
                 rtMavenDeployer (
                     id:'IS_P2_INSERTION_SORT',
                     serverId: 'artifactory',
-                    releaseRepo: 'MenuSort',
-                    snapshotRepo: 'MenuSort',
+                    releaseRepo: 'InsertionSort',
+                    snapshotRepo: 'InsertionSort',
                 )
                 rtMavenRun(
                     pom: 'pom.xml',
